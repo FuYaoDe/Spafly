@@ -15,7 +15,8 @@ Spafly 是一個簡單的 Bash/Applescript 可以使用 command line 在 Mac 上
 
 3. 把Spafly複製到方便的位置，然後設定PATH環境變數，或是直接
     ````
-    $ sudo cp ~/spafly/spafly /usr/bin/spafly
+    $ cd spafly
+    $ sudo cp ./spafly/spafly /usr/bin/spafly
     ````
 
 4. 完成了～ 你現在能試試看使用 spafly 播放音樂了
