@@ -2,13 +2,13 @@
 
 osascript -e "tell application \"Spotify\" to activate";
 sleep 2
-osascript -e "tell application \"Spotify\" to set sound volume to 80";
 
 if [[ $(osascript -e 'get volume settings') =~ volume:([0-9]*), ]]; then
 	ORIGINAL_VOL="$((${BASH_REMATCH[1]} / 10))"
 fi
 
 osascript -e "set Volume 1";
+osascript -e "tell application \"Spotify\" to set sound volume to 80";
 
 while [[ $# -gt 1 ]]; do
 	if [[ $1 = "-s" ]]; then
@@ -63,8 +63,6 @@ else
 	osascript -e "set Volume $ORIGINAL_VOL"
 	echo "Error: Please enter Spotift URL";
 fi
-
-	
 
 
 # spotify:user:spotifytaiwan:playlist:47baPUxFPZOL3WtwD5iFJz
