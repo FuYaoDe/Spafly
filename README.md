@@ -1,5 +1,5 @@
 # Spafly
-Spafly 是一個簡單的 Bash/Applescript 可以使用 command line 在 Mac 上操控 [Spotify](https://www.spotify.com)，搭配排程 + crontab 讓您每天早上起床就像泡 SPA 一樣，[詳細教學在這](http://fuyaode.logdown.com/)。
+Spafly 是一個簡單的 Bash/Applescript 可以使用 command line 在 Mac 上操控 [Spotify](https://www.spotify.com)，搭配排程 + crontab 讓您每天早上起床就像泡 SPA 一樣，[詳細教學在這](http://fuyaode.logdown.com/posts/283389-ininder-makes-mac-spotify-advanced-alarm-clock)。
 
 ## Installation and usage
 1. 下載 Spafly.zip 或是 clone 這個倉庫
